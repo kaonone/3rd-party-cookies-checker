@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="A third-party page to check if third-party cookies enabled. Read more on https://github.com/akropolisio/3rd-party-cookies-checker" />
+  <title>3rd-party Cookies Checker</title>
+</head>
+
+<body>
+  <script>
+    if (window.parent !== window) {
+      const message = /thirdparty=yes/.test(document.cookie) ? 'COOKIES_SUPPORTED' : 'COOKIES_UNSUPPORTED';
+      window.parent.postMessage(message, '*');
+      document.cookie = 'thirdparty=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+  </script>
+</body>
+
+</html>

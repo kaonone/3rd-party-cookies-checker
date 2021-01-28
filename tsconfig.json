@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "baseUrl": "./",
+    "declaration": true,
+    "outDir": "dist/gh-pages",
+    "moduleResolution": "node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "public", "dist"]
+}
