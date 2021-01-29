@@ -1,11 +1,11 @@
 {
   "name": "3rd-party-cookies-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/akropolisio/3rd-party-cookies-checker",
   "author": "Akropolis",
   "license": "MIT",
-  "main": "dist/gh-pages/index.js",
-  "typings": "dist/gh-pages/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },

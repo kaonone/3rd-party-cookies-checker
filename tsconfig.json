@@ -4,7 +4,7 @@
     "module": "CommonJS",
     "baseUrl": "./",
     "declaration": true,
-    "outDir": "dist/gh-pages",
+    "outDir": "dist",
     "moduleResolution": "node"
   },
   "include": ["src"],
