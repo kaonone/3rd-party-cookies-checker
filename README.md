@@ -1,6 +1,6 @@
 # 3rd-party-cookies-checker
 
-Hosts external pages for [tpc-checker library](https://www.npmjs.com/package/tpc-checker) on github-pages: https://akropolisio.github.io/3rd-party-cookies-checker.
+Hosts external pages for [tpc-checker library](https://www.npmjs.com/package/tpc-checker) on github-pages: https://kaonone.github.io/3rd-party-cookies-checker.
 
 ## Usage
 To check if third-party cookies are enabled in browser:
